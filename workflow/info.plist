@@ -48,6 +48,30 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>B3837B7F-E21F-4119-B58B-4C2E739ADDC3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D5D420AF-101D-46FD-88B2-CCE181A27831</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9896688-5F6E-42A2-A059-88BB04217C43</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>08093595-0D94-434E-84FD-1AC0AFB4E8E0</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>7859B5E8-EC37-422C-B402-D7CBAF27EC36</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -93,6 +117,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B3837B7F-E21F-4119-B58B-4C2E739ADDC3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D6612528-6924-464B-AFD7-EA09B082EE33</key>
 		<array/>
 		<key>D7A7B310-161A-45F3-971B-F210F0F060B8</key>
@@ -109,6 +146,19 @@
 			</dict>
 		</array>
 		<key>E0E2629B-E7F9-4A1A-91BC-09A72867FC4F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E9896688-5F6E-42A2-A059-88BB04217C43</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -145,23 +195,6 @@
 	<string>Copy Link</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>'{query}', {allvars}</string>
-				<key>cleardebuggertext</key>
-				<false/>
-				<key>processoutputs</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.debug</string>
-			<key>uid</key>
-			<string>D6612528-6924-464B-AFD7-EA09B082EE33</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -224,6 +257,23 @@ return theLink</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>'{query}', {allvars}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>D6612528-6924-464B-AFD7-EA09B082EE33</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -268,6 +318,34 @@ return theLink</string>
 						<key>uid</key>
 						<string>E52E8A99-FCA3-44E1-8E66-7C7DD5497065</string>
 					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:focusedapp}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>com.google.Chrome</string>
+						<key>outputlabel</key>
+						<string>Chrome</string>
+						<key>uid</key>
+						<string>D5D420AF-101D-46FD-88B2-CCE181A27831</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:focusedapp}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>com.apple.Safari</string>
+						<key>outputlabel</key>
+						<string>Safari</string>
+						<key>uid</key>
+						<string>08093595-0D94-434E-84FD-1AC0AFB4E8E0</string>
+					</dict>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
@@ -278,43 +356,6 @@ return theLink</string>
 			<string>083C38CC-3C2B-4E36-8689-160936B7BC7F</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<true/>
-				<key>focusedappvariablename</key>
-				<string>focusedapp</string>
-				<key>hotkey</key>
-				<integer>8</integer>
-				<key>hotmod</key>
-				<integer>1179648</integer>
-				<key>hotstring</key>
-				<string>C</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedApps</key>
-				<array>
-					<string>com.devon-technologies.think3</string>
-					<string>md.obsidian</string>
-					<string>org.zotero.zotero</string>
-				</array>
-				<key>relatedAppsMode</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>487D774E-19E9-4A5C-BD11-263CBD5EA74B</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -334,19 +375,6 @@ return theLink</string>
 			<string>0A6FBDEA-5436-497D-8FEA-965A1ED78EC5</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -395,6 +423,104 @@ return theLink</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<true/>
+				<key>focusedappvariablename</key>
+				<string>focusedapp</string>
+				<key>hotkey</key>
+				<integer>8</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>C</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.google.Chrome</string>
+					<string>md.obsidian</string>
+					<string>com.devon-technologies.think3</string>
+					<string>com.apple.Safari</string>
+					<string>org.zotero.zotero</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>487D774E-19E9-4A5C-BD11-263CBD5EA74B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application "Google Chrome"	set theName to title of active tab of front window	set theLink to URL of active tab of front windowend tellset theLink to "[" &amp; theName &amp; "](" &amp; theLink &amp; ")"return theLink</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B3837B7F-E21F-4119-B58B-4C2E739ADDC3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application "Safari"	set link to first item of documents	set theName to name of link	set theLink to URL of linkend tellset theLink to "[" &amp; theName &amp; "](" &amp; theLink &amp; ")"return theLink</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E9896688-5F6E-42A2-A059-88BB04217C43</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -404,7 +530,7 @@ return theLink</string>
 				<key>text</key>
 				<string>{var:focusedapp} Not Supported</string>
 				<key>title</key>
-				<string>Hook Workflow</string>
+				<string>Copy Link Workflow</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -424,58 +550,72 @@ return theLink</string>
 		<key>083C38CC-3C2B-4E36-8689-160936B7BC7F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>310</integer>
+			<integer>315</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>255</integer>
 		</dict>
 		<key>0A6FBDEA-5436-497D-8FEA-965A1ED78EC5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>835</integer>
+			<integer>820</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>275</integer>
 		</dict>
 		<key>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</key>
 		<dict>
 			<key>xpos</key>
-			<integer>765</integer>
+			<integer>770</integer>
 			<key>ypos</key>
-			<integer>285</integer>
+			<integer>305</integer>
 		</dict>
 		<key>487D774E-19E9-4A5C-BD11-263CBD5EA74B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>120</integer>
+			<integer>85</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>295</integer>
 		</dict>
 		<key>7859B5E8-EC37-422C-B402-D7CBAF27EC36</key>
 		<dict>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>555</integer>
 			<key>ypos</key>
-			<integer>490</integer>
+			<integer>610</integer>
+		</dict>
+		<key>B3837B7F-E21F-4119-B58B-4C2E739ADDC3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>555</integer>
+			<key>ypos</key>
+			<integer>385</integer>
 		</dict>
 		<key>D6612528-6924-464B-AFD7-EA09B082EE33</key>
 		<dict>
 			<key>xpos</key>
-			<integer>285</integer>
+			<integer>315</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>180</integer>
 		</dict>
 		<key>D7A7B310-161A-45F3-971B-F210F0F060B8</key>
 		<dict>
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
-			<integer>215</integer>
+			<integer>165</integer>
 		</dict>
 		<key>E0E2629B-E7F9-4A1A-91BC-09A72867FC4F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>555</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>275</integer>
+		</dict>
+		<key>E9896688-5F6E-42A2-A059-88BB04217C43</key>
+		<dict>
+			<key>xpos</key>
+			<integer>555</integer>
+			<key>ypos</key>
+			<integer>495</integer>
 		</dict>
 		<key>EAF4E143-6212-4E60-9C0A-F82B73D0E5FB</key>
 		<dict>
@@ -486,7 +626,7 @@ return theLink</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>v0.0.1</string>
+	<string>v0.0.2</string>
 	<key>webaddress</key>
 	<string>jingyi.blog</string>
 </dict>

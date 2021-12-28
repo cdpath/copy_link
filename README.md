@@ -1,6 +1,10 @@
-# copy_link
+# Copy Link
 
 Alfred Workflow to get item URI from frontmost application
+
+Setup
+
+- Zotero: install [zotxt](https://github.com/egh/zotxt)
 
 Credits
 
