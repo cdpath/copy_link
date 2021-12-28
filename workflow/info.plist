@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>blog.jingyi.copylink</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>083C38CC-3C2B-4E36-8689-160936B7BC7F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EAF4E143-6212-4E60-9C0A-F82B73D0E5FB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>3F00255D-063D-47B9-A1F6-F7E84CC89FD2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D7A7B310-161A-45F3-971B-F210F0F060B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>935EC3CA-ED4B-49D3-B9F8-D9DADEE9A92B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E0E2629B-E7F9-4A1A-91BC-09A72867FC4F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E52E8A99-FCA3-44E1-8E66-7C7DD5497065</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7859B5E8-EC37-422C-B402-D7CBAF27EC36</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A6FBDEA-5436-497D-8FEA-965A1ED78EC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>487D774E-19E9-4A5C-BD11-263CBD5EA74B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6612528-6924-464B-AFD7-EA09B082EE33</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>083C38CC-3C2B-4E36-8689-160936B7BC7F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6612528-6924-464B-AFD7-EA09B082EE33</key>
+		<array/>
+		<key>D7A7B310-161A-45F3-971B-F210F0F060B8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E0E2629B-E7F9-4A1A-91BC-09A72867FC4F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EAF4E143-6212-4E60-9C0A-F82B73D0E5FB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>jingyi</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Copy Link</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}', {allvars}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>D6612528-6924-464B-AFD7-EA09B082EE33</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application id "DNtp"	if exists (content record of current tab of window 1) then		-- current open item		set theName to name of (content record of current tab of window 1)		set theLink to reference URL of (content record of current tab of window 1)			else if class of window 1 is equal to viewer window then		set selected_items to selection of window 1		if (count of selected_items) = 1 then			-- current selected item			set theName to name of item 1 in selected_items			set theLink to reference URL of item 1 in selected_items		end if	else		-- selected group		set theName to name of root of window 1		set theLink to reference URL of root of window 1	end ifend tellset theLink to "[" &amp; theName &amp; "](" &amp; theLink &amp; ")"return theLink</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>EAF4E143-6212-4E60-9C0A-F82B73D0E5FB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>set myURL to "obsidian://hook-get-address"
+set myScript to "open '" &amp; myURL &amp; "'"
+do shell script myScript
+delay 0.4
+repeat 50 times -- poll clipboard for ~2.5 seconds
+    try
+    	    if (the clipboard) is not equal to "" then
+		    exit repeat
+	    end if
+    end try
+    delay 0.05
+end repeat
+set theLink to the clipboard
+return theLink</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D7A7B310-161A-45F3-971B-F210F0F060B8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:focusedapp}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>com.devon-technologies.think3</string>
+						<key>outputlabel</key>
+						<string>DEVONthink</string>
+						<key>uid</key>
+						<string>3F00255D-063D-47B9-A1F6-F7E84CC89FD2</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:focusedapp}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>md.obsidian</string>
+						<key>outputlabel</key>
+						<string>Obsidian</string>
+						<key>uid</key>
+						<string>935EC3CA-ED4B-49D3-B9F8-D9DADEE9A92B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:focusedapp}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>org.zotero.zotero</string>
+						<key>outputlabel</key>
+						<string>Zotero</string>
+						<key>uid</key>
+						<string>E52E8A99-FCA3-44E1-8E66-7C7DD5497065</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>083C38CC-3C2B-4E36-8689-160936B7BC7F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<true/>
+				<key>focusedappvariablename</key>
+				<string>focusedapp</string>
+				<key>hotkey</key>
+				<integer>8</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>C</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.devon-technologies.think3</string>
+					<string>md.obsidian</string>
+					<string>org.zotero.zotero</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>487D774E-19E9-4A5C-BD11-263CBD5EA74B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>0A6FBDEA-5436-497D-8FEA-965A1ED78EC5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>use scripting additions
+use framework "Foundation"
+
+set zotext_result to do shell script "curl -s -d selected=t\\&amp;format=json  -G http://127.0.0.1:23119/zotxt/items"
+set str to current application's NSString's stringWithString:zotext_result
+set theData to str's dataUsingEncoding:(current application's NSUTF8StringEncoding)
+
+set {res, theErr} to current application's NSJSONSerialization's JSONObjectWithData:theData options:0 |error|:(reference)
+if res is missing value then error (theErr's localizedDescription() as text) number -10000
+set aList to res as list
+
+set theName to |title| of item 1 of aList
+
+
+set theId to |id| of item 1 of aList
+set AppleScript's text item delimiters to "/items/"
+set theTextItems to every text item of theId
+set theLink to item 2 of theTextItems
+
+set theLink to "[" &amp; theName &amp; "](zotero://select/library/items/" &amp; theLink &amp; ")"
+
+return theLink</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E0E2629B-E7F9-4A1A-91BC-09A72867FC4F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:focusedapp} Not Supported</string>
+				<key>title</key>
+				<string>Hook Workflow</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>7859B5E8-EC37-422C-B402-D7CBAF27EC36</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Credits
+
+- idea from [Hook – Links beat searching](https://hookproductivity.com/)
+- icon from Apple Emoji for [link](https://emojipedia.org/link/)</string>
+	<key>uidata</key>
+	<dict>
+		<key>083C38CC-3C2B-4E36-8689-160936B7BC7F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>0A6FBDEA-5436-497D-8FEA-965A1ED78EC5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>835</integer>
+			<key>ypos</key>
+			<integer>255</integer>
+		</dict>
+		<key>0C99B754-CCC8-4A73-894D-F2ADFF4B7368</key>
+		<dict>
+			<key>xpos</key>
+			<integer>765</integer>
+			<key>ypos</key>
+			<integer>285</integer>
+		</dict>
+		<key>487D774E-19E9-4A5C-BD11-263CBD5EA74B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>120</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>7859B5E8-EC37-422C-B402-D7CBAF27EC36</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>490</integer>
+		</dict>
+		<key>D6612528-6924-464B-AFD7-EA09B082EE33</key>
+		<dict>
+			<key>xpos</key>
+			<integer>285</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>D7A7B310-161A-45F3-971B-F210F0F060B8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>215</integer>
+		</dict>
+		<key>E0E2629B-E7F9-4A1A-91BC-09A72867FC4F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>360</integer>
+		</dict>
+		<key>EAF4E143-6212-4E60-9C0A-F82B73D0E5FB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>v0.0.1</string>
+	<key>webaddress</key>
+	<string>jingyi.blog</string>
+</dict>
+</plist>
