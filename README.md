@@ -16,6 +16,11 @@ Alfred Workflow to get item URI from frontmost application
 - Chrome
 - Safari
 
+## todo
+
+- [ ] use [obsidian-advanced-uri](https://github.com/Vinzent03/obsidian-advanced-uri) instead
+
+
 ## Credits
 
 - idea from [Hook – Links beat searching](https://hookproductivity.com/)
